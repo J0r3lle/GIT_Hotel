@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Bienvenue - Hôtel Neptune</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="config" href="config.php">
+        <link rel="admin" href="admin.php">
+        <link rel="login" href="login.php">
+        <link rel="register" href="register.php">
+        <link rel="reservation" href="reservation.php">
+        <link rel="traitement_reservation" href="traitement_reservation.php">
+
+    </head>
+    <body>
+        <div class="container">
+            <h2>Bienvenue à Hôtel Neptune</h2>
+            
+            <div class="login-form">
+                <h3>Connexion</h3>
+                <form action="login.php" method="post">
+                    <label for="login-username">Nom d'utilisateur :</label>
+                    <input type="text" id="login-username" name="username" required><br>
+    
+                    <label for="login-password">Mot de passe :</label>
+                    <input type="password" id="login-password" name="password" required><br>
+    
+                    <input type="submit" value="Se connecter">
+                </form>
+            </div>
+
+
+            <div class="register-redirect">
+                <h3>Pas encore membre ?</h3>
+                <a href="register.html" class="btn">Inscription</a>
+            </div>
+        </div>
+    </body>
+    </html>
+ 
